@@ -1,0 +1,8 @@
+[
+  {"name": "Technology & AI", "definition": "Products, models, tools, platforms, software, hardware."},
+  {"name": "Business & Finance", "definition": "Markets, investing, startups, corporate strategy, economics."},
+  {"name": "Politics & Policy", "definition": "Government, regulation, elections, legislation, diplomacy."},
+  {"name": "Science & Health", "definition": "Research, discoveries, medicine, climate, environment."},
+  {"name": "Culture & Society", "definition": "Media, trends, ideas, arts, education, consumer behavior."},
+  {"name": "Other", "definition": "Items that do not fit the above categories."}
+]
