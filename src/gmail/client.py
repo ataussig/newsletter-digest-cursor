@@ -29,7 +29,7 @@ def _get_service():
 
 def list_message_ids(service, query: str, max_results: int = 500) -> Iterator[str]:
     """Yield message IDs for the given query, paginating through all results."""
-    request = service.users().messages().list(userId="me", q=query, maxResults=max_results)
+    request = service.users().messages().list(userId="me", maxResults=max_results, q=query)
     while request is not None:
         response = request.execute()
         for msg in response.get("messages", []):
